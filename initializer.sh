@@ -1,5 +1,5 @@
 #!/bin/sh
-NAME="automation-test1"
+NAME= $1
 
 git init
 git add .
