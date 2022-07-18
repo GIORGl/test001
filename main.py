@@ -50,7 +50,7 @@ def main():
 
     btn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn-primary.btn"))).click()
 
-    sleep(20)
+    driver.close()
 
 main()
 
