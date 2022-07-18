@@ -3,7 +3,7 @@
 
 # echo $NAME
 
-echo "First arg: $1"
+
 git init
 git add .
 
